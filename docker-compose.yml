@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      EKB_DB_URL: postgresql+psycopg2://ekb:ekb@db:5432/ekb
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: ekb
+      POSTGRES_USER: ekb
+      POSTGRES_PASSWORD: ekb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

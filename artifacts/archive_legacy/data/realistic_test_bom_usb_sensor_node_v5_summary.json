@@ -1,0 +1,209 @@
+{
+  "row_count": 16,
+  "total_qty": 36,
+  "calculated_rows": 16,
+  "manual_review_rows": 0,
+  "unsupported_rows": 0,
+  "partial_match_rows": 0,
+  "parts_count_rows": 3,
+  "part_stress_rows": 13,
+  "total_lambda": 2.554441e-07,
+  "total_fit": 255.4441,
+  "system_mtbf_hours": 3914750.8202381656,
+  "status_counts": {
+    "calculated": 16
+  },
+  "selected_method_counts": {
+    "part_stress": 13,
+    "parts_count": 3
+  },
+  "family_fit": {
+    "integrated_circuit": 106.7175,
+    "capacitor": 60.48,
+    "connector": 35.1,
+    "transistor": 19.008,
+    "diode": 15.552,
+    "crystal": 11.52,
+    "inductor": 5.76,
+    "resistor": 1.28,
+    "fuse": 0.02,
+    "ferrite": 0.0066
+  },
+  "family_qty": {
+    "capacitor": 14,
+    "resistor": 8,
+    "integrated_circuit": 4,
+    "connector": 2,
+    "diode": 2,
+    "transistor": 2,
+    "fuse": 1,
+    "ferrite": 1,
+    "crystal": 1,
+    "inductor": 1
+  },
+  "source_sheet_counts": {
+    "<csv>": 16
+  },
+  "pipeline_options": {
+    "environment": "ground_fixed",
+    "quality": "commercial",
+    "operating_temp_c": null,
+    "selected_sheets": null
+  },
+  "mil_board_circuit_reference": {
+    "included_in_total": false,
+    "environment_code": "GF",
+    "total_lambda_g_failures_per_1e6_hours": 0.37,
+    "board_rows": [
+      {
+        "source_sheet": "<csv>",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      }
+    ],
+    "note": "MIL Section 16 board-circuit references are reported separately and are not yet merged into total system FIT in this project."
+  },
+  "top_contributors": [
+    {
+      "raw_description": "CAP CER 0.1UF 50V X7R 0603",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 8,
+      "fit": 34.559999999999995,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "IC EEPROM 256KBIT I2C 1MHZ 8SOIC",
+      "family": "integrated_circuit",
+      "subfamily": "memory_ic",
+      "qty": 1,
+      "fit": 28.957499999999996,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "USB BRIDGE USB TO UART USB 2.0 QFN28",
+      "family": "integrated_circuit",
+      "subfamily": "generic_ic",
+      "qty": 1,
+      "fit": 25.919999999999998,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "ARM Cortex-M3 STM32F1 MCU 72MHz 64KB Flash 48-LQFP",
+      "family": "integrated_circuit",
+      "subfamily": "microcontroller",
+      "qty": 1,
+      "fit": 25.919999999999998,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "CAP CER 10UF 16V X5R 0603",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 6,
+      "fit": 25.919999999999998,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "LDO REGULATOR 3.3V 250MA SOT23-3",
+      "family": "integrated_circuit",
+      "subfamily": "generic_ic",
+      "qty": 1,
+      "fit": 25.919999999999998,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "MOSFET N-CH 60V 360MA TO236AB",
+      "family": "transistor",
+      "subfamily": "mosfet",
+      "qty": 2,
+      "fit": 19.008,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "CONN RCPT USB2.0 MICRO B SMD R/A",
+      "family": "connector",
+      "subfamily": "board_connector",
+      "qty": 1,
+      "fit": 17.55,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "CONN HEADER VERT 4POS 2.54MM",
+      "family": "connector",
+      "subfamily": "board_connector",
+      "qty": 1,
+      "fit": 17.55,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "CRYSTAL 12.0000MHZ 18PF SMD",
+      "family": "crystal",
+      "subfamily": "quartz_crystal",
+      "qty": 1,
+      "fit": 11.52,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "TVS DIODE 5.25VWM 17VC SOT23-6",
+      "family": "diode",
+      "subfamily": "tvs_diode",
+      "qty": 1,
+      "fit": 9.072,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "DIODE SCHOTTKY 40V 1A SMA",
+      "family": "diode",
+      "subfamily": "signal_or_rectifier_diode",
+      "qty": 1,
+      "fit": 6.4799999999999995,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "FIXED IND 2.2UH 2.3A 88MOHM SMD",
+      "family": "inductor",
+      "subfamily": "fixed_inductor",
+      "qty": 1,
+      "fit": 5.76,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "RES 10K OHM 1% 1/10W 0603",
+      "family": "resistor",
+      "subfamily": "fixed_resistor",
+      "qty": 8,
+      "fit": 1.28,
+      "status": "calculated",
+      "source_sheet": null
+    },
+    {
+      "raw_description": "PTC RESET FUSE 6V 500MA 1206",
+      "family": "fuse",
+      "subfamily": "fuse",
+      "qty": 1,
+      "fit": 0.02,
+      "status": "calculated",
+      "source_sheet": null
+    }
+  ],
+  "diagnostic_rows": []
+}

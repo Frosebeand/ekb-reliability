@@ -1,0 +1,335 @@
+{
+  "row_count": 1031,
+  "total_qty": 8015,
+  "calculated_rows": 1029,
+  "manual_review_rows": 2,
+  "unsupported_rows": 0,
+  "partial_match_rows": 0,
+  "parts_count_rows": 84,
+  "part_stress_rows": 945,
+  "total_lambda": 4.570502175e-05,
+  "total_fit": 45705.02175,
+  "system_mtbf_hours": 21879.433850176432,
+  "status_counts": {
+    "calculated": 1029,
+    "manual_review_required": 2
+  },
+  "selected_method_counts": {
+    "part_stress": 945,
+    "parts_count": 84,
+    "none": 2
+  },
+  "family_fit": {
+    "capacitor": 17938.52,
+    "integrated_circuit": 10615.67775,
+    "connector": 6770.79,
+    "resistor": 6006.56,
+    "diode": 2575.152,
+    "transistor": 954.72,
+    "crystal": 400.896,
+    "inductor": 265.29,
+    "sensor_module": 172.8,
+    "relay": 4.176,
+    "fuse": 0.44,
+    "unknown": 0.0
+  },
+  "family_qty": {
+    "capacitor": 4166,
+    "resistor": 2500,
+    "integrated_circuit": 402,
+    "connector": 385,
+    "diode": 321,
+    "transistor": 102,
+    "inductor": 57,
+    "crystal": 34,
+    "fuse": 22,
+    "relay": 12,
+    "unknown": 8,
+    "sensor_module": 6
+  },
+  "source_sheet_counts": {
+    "SBC_35_2C3_1_E1E001CPU1E": 250,
+    "EM-PCIE104-CPU_E1E001CPU1E": 193,
+    "C2B004CPU2": 189,
+    "PCIe104_INF_E1N001INF1": 133,
+    "PCIe104_PSU_E1N001PWR1": 72,
+    "PCIe104_CON_E1N005INF1": 53,
+    "PCIe104_INF2_E1N006INF1": 46,
+    "IB_2CAN_E1N003INF1": 44,
+    "IB_2RS232_E1N002INF1": 36,
+    "SBC_DIO_E1N004INF1": 15
+  },
+  "pipeline_options": {
+    "environment": "ground_fixed",
+    "quality": "commercial",
+    "operating_temp_c": null,
+    "selected_sheets": null
+  },
+  "mil_board_circuit_reference": {
+    "included_in_total": false,
+    "environment_code": "GF",
+    "total_lambda_g_failures_per_1e6_hours": 3.7,
+    "board_rows": [
+      {
+        "source_sheet": "C2B004CPU2",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      },
+      {
+        "source_sheet": "EM-PCIE104-CPU_E1E001CPU1E",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      },
+      {
+        "source_sheet": "IB_2CAN_E1N003INF1",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      },
+      {
+        "source_sheet": "IB_2RS232_E1N002INF1",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      },
+      {
+        "source_sheet": "PCIe104_CON_E1N005INF1",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      },
+      {
+        "source_sheet": "PCIe104_INF2_E1N006INF1",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      },
+      {
+        "source_sheet": "PCIe104_INF_E1N001INF1",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      },
+      {
+        "source_sheet": "PCIe104_PSU_E1N001PWR1",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      },
+      {
+        "source_sheet": "SBC_35_2C3_1_E1E001CPU1E",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      },
+      {
+        "source_sheet": "SBC_DIO_E1N004INF1",
+        "estimated_board_technology": "surface_mount",
+        "mil_reference": "Appendix A A-10, Section 16.2, Boards Surface Mount Technology Circuit",
+        "lambda_g_failures_per_1e6_hours": 0.37,
+        "included": true,
+        "notes": [
+          "MIL Appendix A A-10 note 8 applies: SMT circuit board design assumptions are the same as those shown in Section 16.2 example."
+        ]
+      }
+    ],
+    "note": "MIL Section 16 board-circuit references are reported separately and are not yet merged into total system FIT in this project."
+  },
+  "top_contributors": [
+    {
+      "raw_description": "Test pin",
+      "family": "connector",
+      "subfamily": "board_connector",
+      "qty": 98,
+      "fit": 1719.9000000000003,
+      "status": "calculated",
+      "source_sheet": "PCIe104_INF_E1N001INF1"
+    },
+    {
+      "raw_description": "Test pin",
+      "family": "connector",
+      "subfamily": "board_connector",
+      "qty": 86,
+      "fit": 1509.3000000000002,
+      "status": "calculated",
+      "source_sheet": "SBC_35_2C3_1_E1E001CPU1E"
+    },
+    {
+      "raw_description": "CAP CER 0201 16V 0.1uF X6S +/-10%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 275,
+      "fit": 1187.9999999999998,
+      "status": "calculated",
+      "source_sheet": "SBC_35_2C3_1_E1E001CPU1E"
+    },
+    {
+      "raw_description": "CAP CER 0201 10V 1uF X6S +/-20%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 254,
+      "fit": 1097.2799999999997,
+      "status": "calculated",
+      "source_sheet": "EM-PCIE104-CPU_E1E001CPU1E"
+    },
+    {
+      "raw_description": "CAP CER 0201 10V 0.22uF X6S +/-10%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 253,
+      "fit": 1092.9599999999998,
+      "status": "calculated",
+      "source_sheet": "SBC_35_2C3_1_E1E001CPU1E"
+    },
+    {
+      "raw_description": "CAP CER 0201 16V 0.1uF X6S +/-10%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 248,
+      "fit": 1071.3599999999997,
+      "status": "calculated",
+      "source_sheet": "EM-PCIE104-CPU_E1E001CPU1E"
+    },
+    {
+      "raw_description": "CAP CERAMIC, 0402, 0.1uF, 50V, X7R, +/-10%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 232,
+      "fit": 1002.2399999999998,
+      "status": "calculated",
+      "source_sheet": "C2B004CPU2"
+    },
+    {
+      "raw_description": "CAP CER 0201 10V 0.22uF X6S +/-10%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 218,
+      "fit": 941.7599999999998,
+      "status": "calculated",
+      "source_sheet": "EM-PCIE104-CPU_E1E001CPU1E"
+    },
+    {
+      "raw_description": "CAP CER 0.1UF 10V X5R 0201 10%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 131,
+      "fit": 565.9199999999998,
+      "status": "calculated",
+      "source_sheet": "C2B004CPU2"
+    },
+    {
+      "raw_description": "MLCC 22UF 6.3V  X5R 0603 В±20%",
+      "family": "capacitor",
+      "subfamily": "generic_capacitor",
+      "qty": 96,
+      "fit": 497.664,
+      "status": "calculated",
+      "source_sheet": "C2B004CPU2"
+    },
+    {
+      "raw_description": "CAP CER 0201 10V 0.47uF X6S +/-10%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 115,
+      "fit": 496.79999999999995,
+      "status": "calculated",
+      "source_sheet": "EM-PCIE104-CPU_E1E001CPU1E"
+    },
+    {
+      "raw_description": "TVS DIODE 3.3V 150W 25pC BI-Dir SOD-923",
+      "family": "diode",
+      "subfamily": "tvs_diode",
+      "qty": 52,
+      "fit": 471.7439999999999,
+      "status": "calculated",
+      "source_sheet": "C2B004CPU2"
+    },
+    {
+      "raw_description": "CAP CER 0201 10V 0.22uF X6S +/-10%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 108,
+      "fit": 466.5599999999999,
+      "status": "calculated",
+      "source_sheet": "PCIe104_INF_E1N001INF1"
+    },
+    {
+      "raw_description": "Test Points, 1mm DIA",
+      "family": "connector",
+      "subfamily": "board_connector",
+      "qty": 26,
+      "fit": 456.3,
+      "status": "calculated",
+      "source_sheet": "PCIe104_INF_E1N001INF1"
+    },
+    {
+      "raw_description": "CAP CER 0201 16V 0.1uF X6S +/-10%",
+      "family": "capacitor",
+      "subfamily": "ceramic_capacitor",
+      "qty": 102,
+      "fit": 440.63999999999993,
+      "status": "calculated",
+      "source_sheet": "PCIe104_INF_E1N001INF1"
+    }
+  ],
+  "diagnostic_rows": [
+    {
+      "raw_description": "THERMISTOR,0603,470kohms, 3%,4500K",
+      "family": "unknown",
+      "subfamily": "unknown",
+      "identification_confidence": 0.15,
+      "selected_method": "none",
+      "status": "manual_review_required",
+      "comment": "rule-based classifier found no strong pattern; unknown family",
+      "source_sheet": "C2B004CPU2"
+    },
+    {
+      "raw_description": "SMD with internal blind-hole thread with Pin",
+      "family": "unknown",
+      "subfamily": "unknown",
+      "identification_confidence": 0.15,
+      "selected_method": "none",
+      "status": "manual_review_required",
+      "comment": "rule-based classifier found no strong pattern; unknown family",
+      "source_sheet": "C2B004CPU2"
+    }
+  ]
+}

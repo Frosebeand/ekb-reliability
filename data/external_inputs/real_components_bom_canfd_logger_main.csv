@@ -1,0 +1,21 @@
+﻿Item,Ref designator,Qty,Description,Mfg name,Manufacturer part number,Part number,Package,Category,Source URL
+1,U1,1,MCU ARM Cortex-M4 170MHz 128KB Flash 32KB SRAM LQFP-32,STMicroelectronics,STM32G431KBT6,STM32G431KBT6,LQFP-32,Microcontroller,https://www.st.com/en/microcontrollers-microprocessors/stm32g431kb.html
+2,U2,1,High-speed CAN FD transceiver with standby mode SOIC-8,Microchip Technology,MCP2562FD-H/SN,MCP2562FD-H/SN,SOIC-8,CAN FD transceiver,https://www.microchip.com/en-us/product/mcp2562fd
+3,U3,1,Environmental sensor humidity pressure temperature LGA-8,Bosch Sensortec,BME280,BME280,LGA-8,Sensor,https://www.bosch-sensortec.com/en/products/environmental-sensors/humidity-sensors-bme280/
+4,U4,1,32Mbit QSPI NOR Flash memory SOIC-8,Winbond,W25Q32JVSSIQ,W25Q32JVSSIQ,SOIC-8,Memory IC,https://www.winbond.com/hq/new-online-purchasing-guide/index.html?__locale=en&pLine=%2Fproduct%2Fcode-storage-flash%2Fqspi-nor%2F&pNo=W25Q32JV
+5,U5,1,256Kbit I2C EEPROM with Unique ID SOIC-8,Microchip Technology,24AA256UID-I/SN,24AA256UID-I/SN,SOIC-8,EEPROM,https://www.microchip.com/en-us/product/24aa256uid
+6,U6,1,3V to 17V 1A step-down converter fixed 3.3V WSON-8,Texas Instruments,TPS62162DSGT,TPS62162DSGT,WSON-8,Buck regulator,https://www.ti.com/product/TPS62162
+7,U7,1,600mA CMOS LDO regulator with enable 3.3V SOT-23-5,Diodes Incorporated,AP2112K-3.3TRG1,AP2112K-3.3TRG1,SOT-23-5,LDO regulator,https://www.diodes.com/part/view/AP2112
+8,U8,1,16-bit 4-channel delta-sigma ADC with I2C VSSOP-10,Texas Instruments,ADS1115IDGST,ADS1115IDGST,VSSOP-10,ADC,https://www.ti.com/product/ADS1115
+9,U9,1,Current and power monitor with I2C SOT-23-8,Texas Instruments,INA219AIDCNR,INA219AIDCNR,SOT-23-8,Current monitor,https://www.ti.com/product/INA219
+10,FB1,1,Ferrite bead 100 Ohm 100MHz 0603 power line,TDK,MPZ1608S101ATAH0,MPZ1608S101ATAH0,0603,Ferrite bead,https://product.tdk.com/ja/search/emc/emc/beads/info?part_no=MPZ1608S101ATAH0
+11,L1,1,22uH shielded power inductor SMT,Wurth Elektronik,744043220,744043220,4828,Power inductor,https://www.we-online.com/en/system/search?sword=744043220
+12,D1,1,TVS diode 24V SMAJ unidirectional,Littelfuse,SMAJ24A,SMAJ24A,DO-214AC,TVS diode,https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smaj/smaj24a
+13,Y1,1,32.768kHz SMD crystal 12.5pF 3215,Abracon,ABS07-32.768KHZ-1-T,ABS07-32.768KHZ-1-T,3215,RTC crystal,https://abracon.com/parametric/crystals/ABS07-32.768KHZ-1-T
+14,J1,1,Micro-USB B receptacle bottom mount SMT,Molex,1050170001,1050170001,USB Receptacle,USB connector,https://www.molex.com/en-us/products/part-detail/1050170001
+15,J2,1,1x4 2.54mm through-hole header strip,Samtec,TSW-104-07-G-S,TSW-104-07-G-S,TH Header,Board connector,https://www.samtec.com/products/tsw-104-07-g-s
+16,"R1,R2,R5,R6",4,RES 0603 10k 1% thick film,Panasonic,ERJ3EKF1002V,ERJ3EKF1002V,0603,Resistor,https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ3EKF1002V
+17,"R3,R4",2,RES 0603 4.7k 1% thick film,Panasonic,ERJ3EKF4701V,ERJ3EKF4701V,0603,Resistor,https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models
+18,"C1,C2,C6,C8,C9,C10",6,CAP CER 0603 0.1uF 50V X7R 10%,TDK,C1608X7R1H104K080AA,C1608X7R1H104K080AA,0603,Ceramic capacitor,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA
+19,"C3,C4",2,CAP CER 0603 1uF 16V X5R 10%,Murata,GRM188R61C105KA12D,GRM188R61C105KA12D,0603,Ceramic capacitor,https://pim.murata.com/en-in/pim/details/?partNum=GRM188R61C105KA12D
+20,C5,1,CAP CER 0805 22uF 6.3V X5R 20%,Murata,GRM21BR60J226ME39L,GRM21BR60J226ME39L,0805,Ceramic capacitor,https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9128.pdf
