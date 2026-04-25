@@ -1,0 +1,7 @@
+{
+  "status": "tensorflow_not_available",
+  "message": "No module named 'tensorflow'",
+  "note": "LSTM experimental module requires TensorFlow under the target Python 3.11 environment.",
+  "n_test": 120,
+  "sequence_length": 24
+}

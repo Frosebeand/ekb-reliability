@@ -1,0 +1,14 @@
+[
+  "capacitor::electrolytic_capacitor",
+  "capacitor::film_or_mica_capacitor",
+  "diode::signal_or_rectifier_diode",
+  "fuse::fuse",
+  "inductor::fixed_inductor",
+  "inductor::transformer",
+  "integrated_circuit::analog_ic",
+  "integrated_circuit::display_module",
+  "integrated_circuit::op_amp",
+  "relay::electromechanical_relay",
+  "resistor::fixed_resistor",
+  "transistor::bjt"
+]

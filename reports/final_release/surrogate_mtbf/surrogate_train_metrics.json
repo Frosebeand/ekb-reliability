@@ -1,0 +1,13 @@
+{
+  "target": "target_mtbf_hours",
+  "target_kind": "target_log_mtbf_hours",
+  "target_transform": "log10",
+  "MAE_mtbf_hours": 2979010.5853414456,
+  "RMSE_mtbf_hours": 16251607.61184823,
+  "R2": 0.7751438521486835,
+  "MAPE_mtbf_pct": 16.35518113104994,
+  "median_APE_mtbf_pct": 12.807416483621928,
+  "n_test": 800,
+  "n_train": 3200,
+  "model_version": "rf_mtbf_bundle_v4"
+}

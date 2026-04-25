@@ -1,0 +1,13 @@
+,capacitor::electrolytic_capacitor,capacitor::film_or_mica_capacitor,diode::signal_or_rectifier_diode,fuse::fuse,inductor::fixed_inductor,inductor::transformer,integrated_circuit::analog_ic,integrated_circuit::display_module,integrated_circuit::op_amp,relay::electromechanical_relay,resistor::fixed_resistor,transistor::bjt
+capacitor::electrolytic_capacitor,42,0,0,0,0,0,0,0,0,0,0,0
+capacitor::film_or_mica_capacitor,0,72,0,0,0,0,0,0,0,0,0,0
+diode::signal_or_rectifier_diode,0,0,75,0,0,0,0,0,0,0,0,0
+fuse::fuse,0,0,0,68,0,0,0,0,0,0,0,0
+inductor::fixed_inductor,0,0,0,0,95,0,0,0,0,0,0,0
+inductor::transformer,0,0,0,0,0,42,0,0,0,0,1,0
+integrated_circuit::analog_ic,0,0,0,0,0,0,16,0,0,0,0,0
+integrated_circuit::display_module,0,0,0,0,0,0,0,45,0,0,0,0
+integrated_circuit::op_amp,0,0,0,0,0,0,0,0,20,0,0,0
+relay::electromechanical_relay,0,0,0,0,0,0,0,0,0,19,0,0
+resistor::fixed_resistor,0,0,0,0,0,0,0,0,0,0,89,0
+transistor::bjt,0,0,0,0,0,0,0,0,0,0,0,54

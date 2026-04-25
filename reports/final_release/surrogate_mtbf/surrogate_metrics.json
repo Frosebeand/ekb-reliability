@@ -1,0 +1,11 @@
+{
+  "MAE_mtbf_hours": 1555869.6707774338,
+  "RMSE_mtbf_hours": 10484726.114335995,
+  "R2": 0.9038057044121006,
+  "MAPE_mtbf_pct": 8.967401760015882,
+  "median_APE_mtbf_pct": 7.357391043080215,
+  "n_eval": 400,
+  "model_version": "rf_mtbf_bundle_v4",
+  "target_kind": "target_log_mtbf_hours",
+  "dataset_seed": 314159
+}
